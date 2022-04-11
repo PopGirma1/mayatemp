@@ -1,0 +1,102 @@
+.UserProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap:10px;
+    margin-bottom: 50px;
+}
+.userProfileList{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.userProfileProps{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+
+}
+
+.Props{
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    
+}
+.Label{
+    width: 150px;
+ }
+
+@media only screen and (max-width: 765px) {
+    .UserProfile{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+    .userProfileList{
+        width: 100%;
+        gap: 10px;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        white-space: pre-line;
+    }
+    .Label{
+        width: 60px;
+    }
+    .ProfileImage{
+        margin: auto;
+    }
+    .service{
+        width: 200%;
+        overflow: auto;
+    }
+    .userProfileProps{
+        width: 200%;
+    }
+    .tabWidth{
+        width: 120%;
+    }
+}
+
+.UserAccount{
+    display: flex;
+    justify-content:center;
+ 
+}
+.btnSave{
+    display: flex;
+    justify-content: right;
+}
+
+.ProfileImage{
+    background-color:#cdc3b8;
+    padding: 20px;
+    border-radius: 12px;
+   
+}
+.service{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-evenly;
+}
+
+.addService{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.paymentStatus{
+    display: flex;
+    flex-direction: row;
+
+ 
+}
